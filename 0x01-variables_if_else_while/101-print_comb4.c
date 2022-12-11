@@ -5,7 +5,9 @@
  */
 int main(void)
 {
-	int n1 = n2 = n3 = '0';
+	int n1 = '0';
+	int n2 = '0';
+	int n3 = '0';
 
 	for (n3 = '0'; n3 <= '9'; n3++)
 	{
