@@ -19,19 +19,17 @@ int main(void)
 			{
 				putchar(num2);
 				putchar(num1);
+				if (num1 == 57 && num2 == 56)
 				{
-					if (num1 == 57 && num2 == 56)
-					{
-						break;
-					}
-					putchar(',');
-					putchar(' ');
+					break;
 				}
-				num1++;
+				putchar(',');
+				putchar(' ');
 			}
-			num2++;
+			num1++;
 		}
-		putchar('\n');
-		return (0);
+		num2++;
 	}
+	putchar('\n');
+	return (0);
 }
