@@ -7,10 +7,9 @@ int main(void)
 {
 	char c;
 
-	while (c = 'a'; c <= 'z')
+	for (c = 'a' ; c <= 'z'; c++)
 	{
 		putchar(c);
-		c++;
 	}
 	putchar('\n');
 	return (0);
