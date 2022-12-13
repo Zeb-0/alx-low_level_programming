@@ -2,11 +2,12 @@
 #include "main.h"
 
 /**
- * main - print natural numbers from 0-98
+ * void print_to_98 - print natural numbers from 0-98
  * @n: natural number
  * Return: 0
  */
 void print_to_98(int n)
+
 {
 	if (n < 98)
 	{
@@ -27,7 +28,7 @@ void print_to_98(int n)
 			printf("%d", n);
 			if (n != 98)
 			{
-				printf(", ");
+				printf(",");
 			}
 			n--;
 		}
@@ -36,5 +37,5 @@ void print_to_98(int n)
 	{
 		printf("98");
 	}
-	printf('\n');
+	printf("\n");
 }
