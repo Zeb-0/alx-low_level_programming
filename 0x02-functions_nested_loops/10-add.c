@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - Add two integers and return result
+ * add - Add two integers and return result
  * Return: 0
  */
-int add(int, int)
+int add(int27, int23)
 {
 	int n;
 
