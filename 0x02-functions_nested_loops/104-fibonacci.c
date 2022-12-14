@@ -7,8 +7,8 @@
 int main(void)
 {
 	long int f, s, c, sum, halfaf, halfbf, halfas, halfbs;
-	long int printfhalf, printshalf;
-	
+	long int printfhalf, printshlaf;
+
 	sum = 0;
 	f = 0;
 	s = 1;
