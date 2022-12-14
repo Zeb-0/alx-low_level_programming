@@ -18,8 +18,8 @@ int main(void)
 		printf("%ld", sum);
 		if (c != 97)
 			printf(", ");
-			f = s;
-			s = sum;
+		f = s;
+		s = sum;
 	}
 	halfaf = f / 1000000000;
 	halfbf = f % 1000000000;
@@ -37,12 +37,12 @@ int main(void)
 		printf("%ld%ld", printfhalf, printshalf);
 		if (c == 97)
 			break;
-			printf(", ");
-			halfaf = halfas;
-			halfbf = halfbs;
-			halfas = printfhalf;
-			halfbs = printshalf;
-			c++;
+		printf(", ");
+		halfaf = halfas;
+		halfbf = halfbs;
+		halfas = printfhalf;
+		halfbs = printshalf;
+		c++;
 	}
 	printf("\n");
 	return (0);
