@@ -3,7 +3,7 @@
 /**
  * print_number - a function that prints an integer
  * @n: input
- * Return: inputted integer
+ * Return: 0
  */
 void print_number(int n)
 {
@@ -19,7 +19,7 @@ void print_number(int n)
 		m = n;
 	}
 	d = m;
-	count = n;
+	count = 1;
 	while (d < 9)
 	{
 		d /= 10;
