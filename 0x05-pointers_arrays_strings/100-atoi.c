@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _atoi - a function that converts string to integer
@@ -23,6 +23,7 @@ int _atoi(char *s)
 			break;
 		s++;
 	}
-	if (sign < 0)								total = (-total);
+	if (sign < 0)
+		total = (-total);
 	return (total);
 }
