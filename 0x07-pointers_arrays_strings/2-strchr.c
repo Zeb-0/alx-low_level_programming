@@ -7,7 +7,7 @@
  * Return: pointer to @c if character found in @s, else NULL
  */
 char *_strchr(char *s, char c)
-
+{
 	while (*s)
 	{
 		if (*s != c)
