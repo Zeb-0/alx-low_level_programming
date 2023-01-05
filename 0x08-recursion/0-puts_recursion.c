@@ -13,6 +13,6 @@ void _puts_recursion(char *s)
 		_putchar('\n');
 		return;
 	}
-	_putchar("%c\n", *S);
+	_putchar("%c\n", *s);
 	_puts_recursion(s + 1);
 }
