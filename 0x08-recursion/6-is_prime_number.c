@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 
 /**
  * prime_number - checks for prime number
@@ -14,10 +13,10 @@ int prime_number(int n, int i)
 	{
 		return (0);
 	}
-	if (i > sqrt(n))
-		return (1);
-	if ((n % i) == 0)
+	else if (n % i == 0 && i != n)
 		return (0);
+	else if (i == n)
+		return (1);
 	return (prime_number(n, i + 1));
 }
 
