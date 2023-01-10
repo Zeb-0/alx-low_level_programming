@@ -28,7 +28,7 @@ char *str_concat(char *s1, char *s2)
 	while (*s2)
 	{
 		lens2++;
-		S2++
+		s2++;
 	}
 	s2 = starts2;
 	new_str = malloc(sizeof(char) * (lens1 + lens2 + 1));
