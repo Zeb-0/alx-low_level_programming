@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define __FILE__
+#define _FILE_
 
 /**
  * main - entry
