@@ -1,5 +1,5 @@
-#include "dog.h"
 #include <stdio.h>
+#include "dog.h"
 
 /**
  * print_dog - main fuction
@@ -10,7 +10,7 @@ void print_dog(struct dog *d)
 {
 	if (d == NULL)
 	{
-		return (0);
+		return;
 	}
 	if (d->name == NULL)
 	{
