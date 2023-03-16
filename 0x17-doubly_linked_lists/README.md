@@ -10,7 +10,7 @@
 
 	- Format: see example
 
-		* julien@ubuntu:~/0x17. Doubly linked lists$ cat 0-main.c 
+		 julien@ubuntu:~/0x17. Doubly linked lists$ cat 0-main.c 
 		#include <stdlib.h>
 		#include <string.h>
 		#include <stdio.h>
@@ -44,9 +44,3 @@
 		    free(new);
 		    return (EXIT_SUCCESS);
 		}
-julien@ubuntu:~/0x17. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_dlistint.c -o a
-julien@ubuntu:~/0x17. Doubly linked lists$ ./a 
-9
-8
--> 2 elements
-julien@ubuntu:~/0x17. Doubly linked lists$ 
