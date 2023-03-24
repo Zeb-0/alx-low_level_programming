@@ -1,9 +1,7 @@
 #ifndef _main_h_
 #define _main_h_
-
 #include <stdio.h>
 #include <stdlib.h>
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -29,5 +27,4 @@ int sub(int a, int b);
 int mul(int a, int b);
 int mod(int a, int b);
 extern div_t div(int __numer, int __denom);
-
 #endif /* _main_h_ */ 
