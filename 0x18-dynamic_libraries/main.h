@@ -27,4 +27,4 @@ int sub(int a, int b);
 int mul(int a, int b);
 int mod(int a, int b);
 extern div_t div(int __numer, int __denom);
-#endif /* _main_h_ */ 
+#endif /*_main_h_*/
