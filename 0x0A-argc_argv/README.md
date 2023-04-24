@@ -1,45 +1,39 @@
-0x0A-argc_argv - Argument count && Argument Vector
+# DAY 3
 
-0. Write a program that prints its name, followed by a new line.
+**Third day of my 100 days of code challenge**
 
-	i. If you rename the program, it will print the new name, without having to compile it again
+## C - argc, argv
 
-	ii. You should not remove the path before the name of the program
+Learning a few things on argument count and argument vectors
 
-1. Write a program that prints the number of arguments passed into it.
+### Learning Objectives:
+- How to use arguments passed to your program
+- What are two prototypes of `main` that you know of, and in which case do you use one or the other
+- How to use `__attribute__((unused))` or `(void)` to compile functions with unused variables or parameters
 
-	i. Your program should print a number, followed by a new line
+### Resources:
+- [Arguments to main](https://publications.gbdirect.co.uk//c_book/chapter10/arguments_to_main.html)
+- [argc and argv](http://crasseux.com/books/ctutorial/argc-and-argv.html)
+- [What does argc and argv mean?](https://www.youtube.com/watch?v=aP1ijjeZc24)
+- how to compile with unused variables
 
-2. Write a program that prints all arguments it receives.
+## Tasks
 
-	i. All arguments should be printed, including the first one
-
-	ii. Only print one argument per line, ending with a new line
-
-3. Write a program that multiplies two numbers.
-
-	i.  print the result of the multiplication, followed by a new line
-
-	ii.  assume that the two numbers and result of the multiplication can be stored in an integer
-
-	iii.  print Error, followed by a new line, and return 1 if no two arguments are received.
-
-4. Write a program that adds positive numbers.
-
-	i. Print the result, followed by a new line
-
-	ii. print 0 if no number
-
-	iii. If one of the number contains symbols that are not digits, print Error, followed by a new line, and return 1
-
-5. Write a program that prints the minimum number of coins to make change for an amount of money.
-
-	i. Usage: ./change cents - where cents is the amount of cents you need to give back
-
-	ii. if the number of arguments passed to your program is not exactly 1, print Error, followed by a new line, and return 1
-
-	iii. use atoi to parse the parameter passed to your program
-
-	iv. If the number passed as the argument is negative, print 0, followed by a new line
-
-	v. You can use an unlimited number of coins of values 25, 10, 5, 2, and 1 cent
+File Name | File Description|
+---|---
+| 0-whatsmyname.c | a program that prints its name|
+| | on renaming it, it should print the new name without having to compile it|
+| 1-args.c | A program that prints the number of arguments passed to it|
+| | it should print a number followed by a new line|
+| 2-args.c | It prints all arguments it receives, one argument per line|
+| 3-mul.c | Multiplies 2 numbers and return result |
+| | if no arguments are given it prints `Error` followed by new line and returns `1`|
+| 4-add.c | Adds two positive numbers(of type `int`)|
+| | passing no arguments it prints `0` and new line|
+| | passing non-digits prints `Error`, new line and returns `1`|
+| 100-change.c | prints the minimum number of coins to make change for an amount of money.|
+| | Usage: `./change cents`  - `cents` ~ amount of cents to give back|
+| | pass only one argument otherwise prints `Error`, neww line and returns `1`|
+| | use `atoi` to parse parameter passed to the program|
+| | passing negative number of arguments it prints `0` and new line
+| | use an unlimited number of coins of values 25, 10, 5, 2, and 1 cent|
