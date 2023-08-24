@@ -1,5 +1,5 @@
 # 0x1C-makefiles
-Include all tasks completed under this project
+Includes all tasks completed under this project using both `C` and `Python`.
 
 ## Resources:
 Read on:
