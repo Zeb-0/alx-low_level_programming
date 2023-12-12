@@ -8,7 +8,7 @@
  * @value: search value
  * return -1 if no value or null array
  * Return: Always EXIT_SUCCESS
- */
+*/
 
 int linear_search(int *array, size_t size, int value)
 {
