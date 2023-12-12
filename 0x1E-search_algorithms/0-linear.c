@@ -3,7 +3,6 @@
 /**
  * linear_search - search for a value in an integer array
  * Use - Linear search algorithm
- *
  * @array: input array
  * @size: array size
  * @value: search value
